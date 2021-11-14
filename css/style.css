@@ -204,7 +204,7 @@ button:focus{
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu a.dropdown-item:hover{
-	background: #d0a772;
+	background: #000000;
 	color: #ffffff;
 }
 .navbar-light .navbar-toggler:hover{
@@ -290,14 +290,14 @@ button:focus{
 }
 .btn-outline-new-white {
     color: #fff;
-    background-color: #746d74;
+    background-color:#BDB76B;
     background-image: none;
     box-shadow: 10px 10px 5px 0px rgb(0 0 0 / 75%);
    /* border-color: #150003;*/
 }
 .btn-outline-new-white:hover {
     color: #ffffff;
-    background-color:#8bcc88;
+    background-color:#B0C4DE;
     /*border-color: #150003;*/
 }
 
@@ -334,21 +334,32 @@ button:focus{
 /*------------------------------------------------------------------
     About
 -------------------------------------------------------------------*/
-
+/*.about-section-box{
+		background: url(../images/blue.jpg) no-repeat;
+	background-size: cover;
+	padding: 100px 0;
+	background-attachment: fixed;
+	background-position: center center;
+	position: relative;
+}*/
+h1 .hers{
+	font-family: 'Dancing Script', cursive;
+	color: #B0C4DE;
+}
 .about-section-box{
 	padding: 70px 0px;
 }
 .about-section-box .img-fluid{
-	box-shadow: -10px -10px 0px #000000;
+	box-shadow: -10px -10px 0px #BDB76B;
 }
 .inner-column{}
 .inner-column h1{
-	font-family: 'Arbutus Slab', serif;
+	font-family: 'Dancing Script', cursive;
 	font-size: 30px;
-	color: #010101;
+	color: #BDB76B;
 }
 .inner-column h1 span{
-	color: #47923a;
+	color: #B0C4DE;
 }
 .inner-column h4{
 	font-size: 16px;
@@ -382,7 +393,7 @@ button:focus{
     font-weight: 500;
     line-height: 44px;
     color: white;
-	font-family: 'Athiti', serif;
+	font-family: 'Dancing Script', cursive;
 	margin-bottom: 20px;
 }
 
@@ -390,6 +401,7 @@ button:focus{
     color: white;
     font-size: 20px;  
 	font-weight: 500;	
+	font-family: 'Dancing Script', cursive;
 }
 
 /*------------------------------------------------------------------
@@ -404,11 +416,18 @@ button:focus{
 	margin-bottom: 50px;
 }
 .heading-title h2{
-	color: #010101;
+	 color: #BDB76B;;
 	font-size: 28px;
-	font-family: 'Athiti', serif;
+	font-family: 'Dancing Script', cursive;
 	font-weight: 500;
 }
+
+.heading-title h2 span{
+	 color: #B0C4DE;
+	font-size: 28px;
+	font-family: 'Dancing Script', cursive;
+	font-weight: 500
+	}
 .heading-title p{
 	font-size: 18px;
 	font-weight: 200;
@@ -495,7 +514,14 @@ button:focus{
 /*------------------------------------------------------------------
     Gallery
 -------------------------------------------------------------------*/
-
+/*.img-fluid {
+	width: 80px;
+	height: 70px;
+}*/
+.gallery-single {
+width:  100%;
+height: 100%;
+}
 .gallery-box{
 	padding: 70px 0px;
 }
@@ -503,8 +529,8 @@ button:focus{
 	margin-top: 30px;
 }
 .tz-gallery .lightbox img {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin-bottom: 30px;
     transition: 0.2s ease-in-out;
     box-shadow: 0 2px 3px rgba(0,0,0,0.2);
@@ -521,6 +547,7 @@ button:focus{
   transform: translate(-50%, -50%);
   color: white;
   font-size: 16px;
+  font-family: 'Dancing Script', cursive;
 }
 /*------------------------------------------------------------------
     Customer Reviews
@@ -1355,7 +1382,7 @@ blockquote {
     height: 32px;
     text-align: center;
     line-height: 30px;
-    background: #746d74;
+    background: #B0C4DE;
     color: #ffffff;
     cursor: pointer;
     border: 0;
