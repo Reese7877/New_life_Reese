@@ -227,15 +227,15 @@ button:focus{
 	min-height: 100%;
 }  
 
-@media only screen and (max-width:3000px) {
+@media screen (max-width:3000px) {
   /* For mobile phones: */
   .vid-bg {
     width: 100%;
   }
 }
-@media screen (max-width: 1900px) {
+@media screen (max-width: 1960px) {
   .vid-bg {
-   color: red;
+   background-color: red;
   }
 }
 
