@@ -20,7 +20,12 @@
 /*------------------------------------------------------------------
     SKELETON
 -------------------------------------------------------------------*/
+.new { 
 
+ font-family: 'Dancing Script', cursive;
+ font-size: 20px;
+ color: #BDB76B;
+ }
 body {
     color: #666666;
     font-size: 15px;
@@ -222,10 +227,15 @@ button:focus{
 	min-height: 100%;
 }  
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:3000px) {
   /* For mobile phones: */
   .vid-bg {
     width: 100%;
+  }
+}
+@media screen (max-width: 1900px) {
+  .vid-bg {
+   color: red;
   }
 }
 
@@ -455,7 +465,7 @@ h1 .hers{
 }
 
 .filter-button-group button.active {
-    background: #888888;
+    background: #BDB76B;
     color: #fff;
     box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);
 }
@@ -808,8 +818,16 @@ height: 100%;
 -------------------------------------------------------------------*/
 
 .page-breadcrumb {
-    padding: 250px 0 150px;
-    background: url(../images/leaders.jpg) no-repeat;
+    padding: 150px 0 150px;
+    background: url(../images/back.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 0;
+    position: relative;
+}
+.page-breadcrumbm {
+	padding: 250px 0 150px;
+    background: url(../images/music.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: 0 0;
@@ -819,7 +837,22 @@ height: 100%;
 	position: relative;
 	z-index: 2;
 }
+.all-page-titlem .container{
+	position: relative;
+	z-index: 2;
+}
 .all-page-title::before{
+	background: #010101;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	opacity: 0.8;	
+}
+.all-page-titlem::before{
 	background: #010101;
 	content: "";
 	height: 100%;
@@ -849,7 +882,7 @@ height: 100%;
 }
 
 .our-team{
-    border: 2px solid #d0a772;
+    border: 2px solid #BDB76B;
     border-radius: 0px;
     text-align: center;
     margin: 10px;
@@ -861,7 +894,7 @@ height: 100%;
     content: "";
     width: 100%;
     height: 104%;
-    background: #d0a772;
+    background: #B0C4DE;
     position: absolute;
     top: 50%;
     left: 0;
@@ -885,7 +918,7 @@ height: 100%;
 .our-team .team-content{
     width: 93%;
     padding: 25px 0 10px;
-    background: #d0a772;
+    background: #BDB76B;
     position: absolute;
     bottom: 50px;
     left: 50%;
